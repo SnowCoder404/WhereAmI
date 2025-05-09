@@ -1,0 +1,21 @@
+div {
+    text-align: center;
+    >h2 {
+        margin: 0;
+    }
+}
+
+.d_flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.info, .country {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    >img {
+        height: 20px;
+    }
+}
